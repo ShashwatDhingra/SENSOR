@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SENSOR</string>
+    <string name="sensors">SENSORS</string>
+    <string name="proximity">PROXIMITY</string>
+    <string name="accelerometer">ACCELEROMETER</string>
+    <string name="ambient_light">AMBIENT LIGHT</string>
+</resources>
