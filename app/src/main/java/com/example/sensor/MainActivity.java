@@ -16,14 +16,14 @@ public class MainActivity extends AppCompatActivity {
 
 //        Implementing Proximity Sensor, Accelerometer Sensor and Ambient Light Sensor.
 
-        Button btn1, btn2, btn3;
+        Button P_btn, Ac_btn, Am_btn;
 
 
         btn1 = findViewById(R.id.btn1);
         btn2 = findViewById(R.id.btn2);
         btn3 = findViewById(R.id.btn3);
 
-        btn1.setOnClickListener(new View.OnClickListener() {
+        P_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent iNext = new Intent(MainActivity.this, Proximity.class);
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btn2.setOnClickListener(new View.OnClickListener() {
+        Ac_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent iNext = new Intent(MainActivity.this, Accelerometer.class);
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btn3.setOnClickListener(new View.OnClickListener() {
+        Am_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent iNext = new Intent(MainActivity.this, Ambient_Light.class);
