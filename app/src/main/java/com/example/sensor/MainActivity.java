@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+//        Implementing Proximity Sensor, Accelerometer Sensor and Ambient Light Sensor.
 
         Button btn1, btn2, btn3;
 
