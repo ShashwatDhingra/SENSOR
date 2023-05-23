@@ -19,9 +19,9 @@ public class MainActivity extends AppCompatActivity {
         Button P_btn, Ac_btn, Am_btn;
 
 
-        btn1 = findViewById(R.id.btn1);
-        btn2 = findViewById(R.id.btn2);
-        btn3 = findViewById(R.id.btn3);
+        P_btn = findViewById(R.id.btn1);
+        Ac_btn = findViewById(R.id.btn2);
+        Am_btn = findViewById(R.id.btn3);
 
         P_btn.setOnClickListener(new View.OnClickListener() {
             @Override
